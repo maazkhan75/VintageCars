@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background-color: black;
+}
+
+.container p{
+	color:#ea1c2c;
+	margin-top: 8em;
+	font-size:large;
+	border:2px solid grey;
+	border-radius:20px;
+	padding:1em 1em;
+
+}
+.container p:hover{
+	color:grey;
+	margin-top: 8em;
+	font-size:20px;
+	border:2px solid #ea1c2c;
+	border-radius:10px;
+	padding:1.4em 1.4em;
+	
+}
+
+.cross-button{
+	font-size:1em;
+	font-weight: 600;
+	background-color: grey;
+	border: 2px solid #363636;
+	border-radius: 10px;
+	color: #000;
+	display: inline-block;
+	padding: 0.5em 1.2em;
+	text-decoration: none;
+	transition: background-color 330ms ease-in-out;
+	transition:color 0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+ }
+ .cross-button:hover, .cross-button:focus{
+	background-color: #c41221;
+	color:white;
+	text-decoration: none;
+	transform: translateY(-0.2em);
+    cursor:pointer;
+    box-shadow: 0 0.5em 0.7em -0.4em #bb1818;
+ }
+ .cross-button:active{
+	transition:all 100ms;
+	background-color: #000;
+	color:white;
+	transform:scale(1.1,1.1);
+    box-shadow: 0 0.5em 0.7em -0.4em #bb1818;
+ }
+
+ .selected::selection{
+	color:#bebebe;
+	background-color: rgb(141, 17, 17);
+	}
+
+img[alt="www.000webhost.com"]{
+		display:none;
+	}

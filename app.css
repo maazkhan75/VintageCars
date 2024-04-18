@@ -1,0 +1,119 @@
+body{
+	background-color:#000;
+	font-family:"Nunito",sans-serif
+}
+
+.paragraph h2{
+	color:#ea1c2c;
+	font-weight:100;
+	font-size:2.5rem;
+}
+.content{
+	font-weight: 100;
+}
+.paragraph p{
+	color:#ffffff;
+	font-weight:100;
+	font-size:1.125rem;
+	line-height: 2;
+}
+#mainNavbar .navbar-brand{
+	color: #ea1c2c;
+	font-size:2rem;
+	font-weight:100;
+	margin-right: 18px;
+}
+
+#mainNavbar .navbar-brand:hover{
+	color: grey;
+	font-size:2rem;
+	font-weight:100;
+	margin-right: 18px;
+	cursor:none;
+	text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+}
+
+#mainNavbar .nav-link{
+	color: white;
+	font-size:1em;
+	font-weight:100;
+	margin:0 1em;
+	transition:all 0.1s ease-in;
+}
+#mainNavbar .nav-link:hover{
+	color: grey;
+	font-size:1.1em;
+	font-weight:900;
+	text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+}
+
+#mainNavbar .nav-link:active{
+	color: grey;
+	font-size:1em;
+	font-weight:300;
+}
+
+.slash{
+	color:#ea1c2c;
+}
+
+#heading-candy .display-2{
+	font-weight: 100;
+	font-size:4rem;
+}
+
+
+
+
+
+.first_img{
+	margin-top: 8em;
+}
+
+.margin_down{
+	margin-bottom: 3em;
+}
+
+.hover1:hover{
+	.slash{
+		color:white;
+	}
+	.slogan{
+		color:#ea1c2c;
+	}
+
+}
+.navbar.scrolled{
+	background: #000;
+	transition: background 500ms;
+}
+
+.selected::selection{
+color:#bebebe;
+background-color: rgb(141, 17, 17);
+}
+
+.foot{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	background-color:black;
+	color:#ea1c2c;
+	padding-top: 10px;
+	border-top:2px solid #2a2a2a;
+}
+
+
+img[alt="www.000webhost.com"]{
+	display:none;
+}
+
+@media(max-width:1353px){
+	#heading-candy .display-2{
+		font-weight: 100;
+		font-size:3rem;
+	}	
+	.paragraph h2{
+		font-size:2rem;
+	}
+}
