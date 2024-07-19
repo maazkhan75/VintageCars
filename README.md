@@ -4,13 +4,13 @@ Welcome to the Vintage Cars website! This site showcases a collection of classic
 
 ## 📋 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Cars Collection](#cars-collection)
-3. [Pricing Panel](#pricing-panel)
-4. [Order Form](#order-form)
-5. [Built With](#built-with)
-6. [License](#license)
-7. [Clone the Repository](#Clone-the-Repository)
+1. [Introduction](#-introduction)
+2. [Cars Collection](#-cars-collection)
+3. [Pricing Panel](#-pricing-panel)
+4. [Order Form](#-order-form)
+5. [Built With](#-built-with)
+6. [License](#-license)
+7. [Clone the Repository](#-Clone-the-Repository)
 
 ## 📜 Introduction
 
