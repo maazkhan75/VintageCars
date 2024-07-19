@@ -56,6 +56,29 @@ body{
 	justify-content: end;
 }
 
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6d6d6d;
+    border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(169, 169, 169);
+}
+
+
 body .main{
 	display:flex;
 	justify-content: center;
