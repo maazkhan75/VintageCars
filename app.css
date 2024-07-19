@@ -104,9 +104,9 @@ background-color: rgb(141, 17, 17);
 }
 
 
-img[alt="www.000webhost.com"]{
+/*img[alt="www.000webhost.com"]{
 	display:none;
-}
+}*/
 
 @media(max-width:1353px){
 	#heading-candy .display-2{
