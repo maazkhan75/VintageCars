@@ -144,22 +144,22 @@ body .main{
  }
 
  .pricing-button{
-	background-color: white;
-	border: 1px solid #121212;
+	background-color: rgb(155, 155, 155);
 	border-radius: 10px; 
 	color: #000;
+	font-weight: 600;
 	display: inline-block;
-	padding: 15px 35px;
+	padding: 10px 25px;
 	text-decoration: none;
 	margin: 25px 0;
-	transition: background-color 330ms ease-in-out;
+	transition: background-color 0.3s ease-in,transform 0.4s ease-in;
  }
 
  .pricing-button:hover, .pricing-button:focus{
-	background-color: #ea1c2c;
+	background-color: #d80012;
 	color:white;
 	text-decoration: none;
-	transform:scale(1.1,1.1);
+	transform:scale(1.05,1.05);
  }
 
  .pricing-button:active{
@@ -172,10 +172,6 @@ body .main{
  .selected::selection{
 	color:#bebebe;
 	background-color: rgb(141, 17, 17);
-	}
-
- img[alt="www.000webhost.com"]{
-		display:none;
 	}
 
  @media(min-width: 900px){

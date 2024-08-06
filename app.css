@@ -147,7 +147,18 @@ body{
 {
 #mainNavbar .navbar-brand{
 	margin-right: 150px;
+	font-size:1.7em;
 }
+}
+
+@media(max-width:490px)
+{
+#mainNavbar .navbar-brand{
+	margin-right: 50px;
+	font-size:1.3em;
+}
+}
+
 
 #navLinks .navbar-nav .nav-item a{
 	margin:0 2em;
