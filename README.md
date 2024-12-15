@@ -42,5 +42,5 @@ This project is licensed under the MIT License.
 
 ## 📥 Clone the Repository
 ```bash
-git clone https://github.com/maazkhan75/VintageCars.git
+git clone https://github.com/maazkhandev75/VintageCars.git
 ```
